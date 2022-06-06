@@ -1,0 +1,89 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(frontview.jpeg);
+	background-attachment: cover;
+	background-position: center;
+}
+.nn{
+	display: flex;
+	padding-left:20% ;
+}
+.nn1{
+	min-width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color:yellow;;
+}
+.form-box
+{
+	width: 350px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 40px;
+	color: white;
+	padding: 70px 30px;
+
+}
+.logo
+{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -60px;
+	left: calcu(60% - 60px);
+}
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	font-size: 23px;
+	text-align: center;
+}
+.form-box p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.form-box input
+{
+	width: 80%;
+	margin-bottom:20px;
+}
+.form-box input[type="text"], input[type="password"]
+{
+	border: none;
+	background-color: transparent;
+	outline: none;
+	border-bottom: 2px solid white;
+	color: white;
+	font-size: 20px;
+}
+.form-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 30px;
+	background-color: yellow;
+	font-size: 19px;
+	font-weight: bold;
+}
+.form-box a 
+{
+	color: white;
+	text-decoration: none;
+}

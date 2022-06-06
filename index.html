@@ -1,0 +1,39 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+    
+</head>
+<body>
+    <div class="form-box">
+        <div class="nn">
+        <div class="nn1"><i class="fas fa-user"></i></div>
+        <h1>LogIn Here</h1>
+        </div>
+        <form >
+        <p>Username</p>
+        <input type="username" placeholder="username">
+
+        <p>Password</p>
+        <input type="password" placeholder="password">
+        <br>
+        <button type="button" onclick="moveto()">LogIn</button>
+        <input type="checkbox" checked ="checked">Remember Me
+
+        <button type="button" class="cancelbtn">Cancel</button>
+
+        <br>
+        <center>
+        <a href="#">Forget Your Password</a><br>
+        <a href="#">Create Your Account</a>
+        </center>
+        </form>                             
+    </div>
+    <script>
+       function  moveto(){
+        location.replace("home.html");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Homepage</title>
+     <link rel="stylesheet" href="home.css">
+</head>
+<body style="background-image:url(londonlivelogo.jpeg);">
+    <header>
+    <div class="wrapper">
+        <!-- <div class="logo">
+            <img src="londonlivelogo.jpeg" alt="">
+        </div> -->
+<ul class="nav-area">
+<li><a href="#">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="payment.html">Payment</a></li>
+</ul>
+</div>
+<div class="welcome-text">
+        <h1>
+Namaste Welcome To <span>London Live</span></h1>
+<a href="contact1.html">Contact Us</a>
+    </div>
+
+<audio controls="">
+            <source src="shriya.ogg" type="audio/ogg">
+        </audio>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<style>  
+.fa {  
+  padding: 20px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 30px;  
+  width: 50px;  
+}  
+.fa-facebook {  
+  background: #3B569c;  
+  color: white;  
+}  
+.fa-instagram {  
+  background: radial-gradient(circle at 30% 107%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);  
+  color: white;  
+
+}  
+</style>    
+
+
+</header>
+<marquee scrollamount="15"bgcolor="pink" height="50px" width="100%" behavior="alternate" loop="40">Welcome To London Live Varanasi And Stay Safe</marquee>
+<ul class="border">  
+<li class="style">   
+<a href="https://www.facebook.com/Londonliverestaurant/" class="fa fa-facebook"> </a>   
+</li>  
+<li class="style">  
+<a href="https://instagram.com/londonlive9?utm_medium=copy_link" class="fa fa-instagram"> </a>  
+</li></ul>
+</body>
+</html>
